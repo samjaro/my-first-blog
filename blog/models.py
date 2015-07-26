@@ -16,3 +16,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+
+
+        self#(this refers to itself).Post(this refers to class Post).publish(this referd to function publish)()
